@@ -1,0 +1,303 @@
+<form id="form-more" class="mt-3 needs-validation">
+            <fieldset>
+              <input name="yearsoldmore" type="hidden" class="form-control" id="yearsoldmore" placeholder="Name" value="1">
+              <input name="contract" type="hidden" class="form-control" id="contract" placeholder="contract" value="0">
+          
+          
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <label for="name">І'мя (латинськими літерами) *</label>
+                  <input name="name" type="text" class="form-control" id="name" placeholder="Name" value="" required="">
+                  <div class="invalid-feedback">
+                    Введіть імя.
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="lname">Прізвище (латинськими літерами) *</label>
+                  <input name="lname" type="text" class="form-control" id="lname" placeholder="Last Name" value="" required="">
+                  <div class="invalid-feedback">
+                    Введіть Прізвище.
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="birth">Дата народження *</label>
+                  <input name="birth" type="text" class="form-control" id="birth" placeholder="15.10.2020" value="" required="">
+                  <div class="invalid-feedback">
+                    Введіть дату народження.
+                  </div>
+                </div>
+              </div>
+          
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <label for="email">E-mail *</label>
+                  <input name="email" type="emailmore" class="form-control" id="email" aria-describedby="emailHelp"
+                    placeholder="Ваш email">
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="form-group">
+                    <label for="phone">Телефон *</label>
+                    <input name="phone" type="text" class="form-control" id="phone" placeholder="+38096 345 1234" value=""
+                      required="">
+                    <div class="invalid-feedback">
+                      Введіть номер телефону.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="form-group">
+                    <label for="city">Місто *</label>
+                    <input name="city" type="text" class="form-control" id="city" placeholder="Місто" value=""
+                      required="">
+                    <div class="invalid-feedback">
+                      Введіть місто.
+                    </div>
+                  </div>
+                </div>
+          
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <div class="form-group">
+                    <label for="exam">Сертифікація *</label>
+                    <select name="exam" class="form-control" id="exam" required="">
+                      <option value="0" selected="selected">Оберіть Сертифікацію *</option>
+                    </select>
+                  </div>
+                </div>
+
+                  <div id="cert1" class="col-md-4 mb-3 hide">
+                      <div class="form-group">
+                        <label for="cert1">Іспит *</label>
+                        <select name="cert1" class="form-control" id="cert1" required="">
+                          <option value="0" selected="selected">Оберіть Іспит *</option>
+                          <option value="MOS Access 2016">MOS Access 2016</option>
+                          <option value="MOS Excel 2016">MOS Excel 2016</option>
+                          <option value="MOS Excel Expert 2016">MOS Excel Expert 2016</option>
+                          <option value="MOS Outlook 2016">MOS Outlook 2016</option>
+                          <option value="MOS PowerPoint 2016">MOS PowerPoint 2016</option>
+                          <option value="MOS Word 2016">MOS Word 2016</option>
+
+                        </select>
+                      </div>
+                    </div>
+                    
+                  <div id="cert2" class="col-md-4 mb-3 hide">
+                      <div class="form-group">
+                        <label for="cert2">Іспит *</label>
+                        <select name="cert2" class="form-control " id="cert2" required="">
+                          <option value="0" selected="selected">Оберіть Іспит *</option>
+                          <option value="MTA Software Development Fundamentals">MTA Software Development Fundamentals</option>
+                          <option value="MTA HTML5 Application Developer Fundamentals">MTA HTML5 Application Developer Fundamentals</option>
+                          <option value="MTA Intro to Programming using Python">MTA Intro to Programming using Python</option>
+                          <option value="MTA Intro to Programming using JavaScript">MTA Intro to Programming using JavaScript</option>
+                          <option value="MTA Intro to Programming using HTML and CSS">MTA Intro to Programming using HTML and CSS</option>
+                          <option value="MTA Intro to Programming using Java">MTA Intro to Programming using Java</option>
+                          <option value="МТА Windows Operating System Fundamentals">МТА Windows Operating System Fundamentals</option>
+                          <option value="МТА Windows Server Administration Fundamentals">МТА Windows Server Administration Fundamentals</option>
+                          <option value="МТА Networking Fundamentals">МТА Networking Fundamentals</option>
+                          <option value="МТА Security Fundamentals">МТА Security Fundamentals</option>
+                          <option value="МТА Windows Mobility & Device Fundamentals">МТА Windows Mobility & Device Fundamentals</option>
+                          <option value="МТА Database Fundamentals">МТА Database Fundamentals</option>
+                        </select>
+                      </div>
+                    </div>
+
+
+                  <div id="cert3" class="col-md-4 mb-3 hide">
+                      <div class="form-group">
+                        <label for="cert3">Іспит *</label>
+                        <select name="cert3" class="form-control" id="cert3" required="">
+                          <option value="0" selected="selected">Оберіть Іспит *</option>
+                          <option value="Microsoft Certified Educator">Microsoft Certified Educator</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div id="cert4" class="col-md-4 mb-3 hide">
+                      <div class="form-group">
+                        <label for="cert4">Іспит *</label>
+                        <select name="cert4" class="form-control" id="cert4" required="">
+                          <option value="0" selected="selected">Оберіть Іспит *</option>
+                          <option value="IC3 GS6 Level 1">IC3 GS6 Level 1</option>
+                          <option value="IC3 GS6 Level 2">IC3 GS6 Level 2</option>
+                          <option value="IC3 GS6 Level 3">IC3 GS6 Level 3</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div id="cert5" class="col-md-4 mb-3 hide">
+                      <div class="form-group">
+                        <label for="cert5">Іспит *</label>
+                        <select name="cert5" class="form-control" id="cert5" required="">
+                          <option value="0" selected="selected">Оберіть Іспит *</option>
+                          <option value="Communication Skills for Business">Communication Skills for Business</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div id="cert6" class="col-md-4 mb-3 hide">
+                      <div class="form-group">
+                        <label for="cert6">Іспит *</label>
+                        <select name="cert6" class="form-control" id="cert6" required="">
+                          <option value="0" selected="selected">Оберіть Іспит *</option>
+                          <option value="Adobe After Effects CC 2020/CC 2019/CC 2018">Adobe After Effects CC 2020/CC 2019/CC 2018</option>
+                          <option value="Adobe Animate CC 2020/CC 2019/CC 2018/CC 2015">Adobe Animate CC 2020/CC 2019/CC 2018/CC 2015</option>
+                          <option value="Adobe Dreamweaver CC 2020/CC 2019/CC 2018/CC 2015">Adobe Dreamweaver CC 2020/CC 2019/CC 2018/CC 2015</option>
+                          <option value="Adobe Illustrator CC 2020/CC 2019/CC 2018/CC 2015">Adobe Illustrator CC 2020/CC 2019/CC 2018/CC 2015</option>
+                          <option value="Adobe InDesign CC 2020/CC 2019/CC 2018/CC 2015">Adobe InDesign CC 2020/CC 2019/CC 2018/CC 2015</option>
+                          <option value="Adobe Photoshop CC 2020/CC 2019/CC 2018/CC 2015">Adobe Photoshop CC 2020/CC 2019/CC 2018/CC 2015</option>
+                          <option value="Adobe Premiere Pro CC 2020/CC 2019/CC 2018/CC 2015">Adobe Premiere Pro CC 2020/CC 2019/CC 2018/CC 2015</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div id="cert7" class="col-md-4 mb-3 hide">
+                      <div class="form-group">
+                        <label for="cert7">Іспит *</label>
+                        <select name="cert7" class="form-control" id="cert7" required="">
+                          <option value="0" selected="selected">Оберіть Іспит *</option>
+                          <option value="AutoCAD 2019/2020/2021">AutoCAD 2019/2020/2021</option>
+                          <option value="Inventor - Imperial 2019/2020/2021">Inventor - Imperial 2019/2020/2021</option>
+                          <option value="Inventor - Metric 2019/2020/2021">Inventor - Metric 2019/2020/2021</option>
+                          <option value="Revit Architecture - Imperial 2019/2020/2021">Revit Architecture - Imperial 2019/2020/2021</option>
+                          <option value="Revit Architecture - Metric 2019/2020/2021">Revit Architecture - Metric 2019/2020/2021</option>
+                          <option value="Maya (2018/2019/2020)">Maya (2018/2019/2020)</option>
+                          <option value="3ds Max 2019/2020/2021">3ds Max 2019/2020/2021</option>
+                          <option value="Fusion 360 2019/2020/2021">Fusion 360 2019/2020/2021</option>
+                        </select>
+                      </div>
+                    </div>
+
+
+                    <div id="cert8" class="col-md-4 mb-3 hide">
+                      <div class="form-group">
+                        <label for="cert8">Іспит *</label>
+                        <select name="cert8" class="form-control" id="cert8" required="">
+                          <option value="0" selected="selected">Оберіть Іспит *</option>
+                          <option value="AutoCAD 2017/2018/2019">AutoCAD 2017/2018/2019</option>
+                          <option value="AutoCAD Civil3D 2017/2018/2019">AutoCAD Civil3D 2017/2018/2019</option>
+                          <option value="Inventor - Metric 2017/2018/2019">Inventor - Metric 2017/2018/2019</option>
+                          <option value="Revit Architecture - Imperial 2017/2018/2019">Revit Architecture - Imperial 2017/2018/2019</option>
+                          <option value="Revit Architecture - Metric 2017/2018/2019">Revit Architecture - Metric 2017/2018/2019</option>
+                          <option value="Revit Structure - Imperial 2017/2018/2019">Revit Structure - Imperial 2017/2018/2019</option>
+                          <option value="Revit Structure - Metric 2017/2018/2019">Revit Structure - Metric 2017/2018/2019</option>
+                          <option value="Revit MEP: Electrical - Imperial 2017/2018/2019">Revit MEP: Electrical - Imperial 2017/2018/2019</option>
+                          <option value="Revit MEP: Electrical - Metric 2017/2018/2019">Revit MEP: Electrical - Metric 2017/2018/2019</option>
+                          <option value="Revit MEP: Mechanical - Imperial 2017/2018/2019">Revit MEP: Mechanical - Imperial 2017/2018/2019</option>
+                          <option value="Revit MEP: Mechanical - Imperial 2017/2018/2019">Revit MEP: Mechanical - Imperial 2017/2018/2019</option>
+                          <option value="Maya 2017/2018/2019">Maya 2017/2018/2019</option>
+                          <option value="3ds Max 2017/2018/2019">3ds Max 2017/2018/2019</option>
+                          <option value="Fusion 360 2019/2020/2021">Fusion 360 2019/2020/2021</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div id="cert9" class="col-md-4 mb-3 hide">
+                      <div class="form-group">
+                        <label for="cert9">Іспит *</label>
+                        <select name="cert9" class="form-control" id="cert9" required="">
+                          <option value="0" selected="selected">Оберіть Іспит *</option>
+                          <option value="Apple App Development with Swift Exam+ Retake + Practice Test">Apple App Development with Swift Exam+ Retake + Practice Test</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div id="cert10" class="col-md-4 mb-3 hide">
+                      <div class="form-group">
+                        <label for="cert10">Іспит *</label>
+                        <select name="cert10" class="form-control" id="cert10" required="">
+                          <option value="0" selected="selected">Оберіть Іспит *</option>
+                          <option value="Unity Certified User: Programmer">Unity Certified User: Programmer</option>
+                          <option value="Unity Certified User: VR Developer">Unity Certified User: VR Developer</option>
+                          <option value="Unity Certified User: Artist">Unity Certified User: Artist</option>
+                        </select>
+                      </div>
+                    </div>
+
+
+                    <div id="cert11" class="col-md-4 mb-3 hide">
+                      <div class="form-group">
+                        <label for="cert11">Іспит *</label>
+                        <select name="cert11" class="form-control" id="cert11" required="">
+                          <option value="0" selected="selected">Оберіть Іспит *</option>
+                          <option value="AZ-900 Azure Fundamentals">AZ-900 Azure Fundamentals</option>
+                          <option value="MS-900 Microsoft 365 Fundamentals">MS-900 Microsoft 365 Fundamentals</option>
+                          <option value="MB-901 Microsoft Dynamics 365 Fundamentals">MB-901 Microsoft Dynamics 365 Fundamentals</option>
+                          <option value="PL-900 Microsoft Power Platform Fundamentals">PL-900 Microsoft Power Platform Fundamentals</option>
+                          <option value="AI-900 Microsoft Azure AI Fundamentals">AI-900 Microsoft Azure AI Fundamentals</option>
+                          <option value="DP-900 Microsoft Azure Data Fundamentals">DP-900 Microsoft Azure Data Fundamentals</option>
+                        </select>
+                      </div>
+                    </div>
+
+                <div class="col-md-4 mb-3">
+                  <div class="form-group">
+                    <label for="cost">Вартість обраного іспиту (грн)</label>
+                    <input name="cost" type="text" class="form-control" id="cost" placeholder="Оберіть рівень іспиту" value="0"
+                      readonly>
+                  </div>
+                </div>
+              </div>
+              
+              </div>
+          
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                <div class="form-group">
+                  <label for="promo">Вартість обраного іспиту по промокоду (грн) *</label>
+                  <input name="promo" type="promo" class="form-control" id="promo" placeholder="Оберіть рівень іспиту" value="0"
+                    readonly>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                  <div class="form-group">
+                    <label for="promo-code">Промокод</label>
+                    <textarea name="promo-code" rows="3" class="form-control" id="promo-code" placeholder="Промокод"
+                      value=""></textarea>
+                    <div class="invalid-feedback">
+                      Введіть промокод.
+                    </div>
+                  </div>
+                      <div class="btn btn-info" id="promo-btn">перевірити промокод</div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="form-group">
+                    <label for="comment">Коментар</label>
+                    <textarea name="comment" rows="1" class="form-control" id="comment" placeholder="Коментар"
+                      value=""></textarea>
+                    <div class="invalid-feedback">
+                      Введіть коментар.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="form-group">
+                    <label for="examonline">Режим скадання іспиту</label>
+                    <select name="examonline" class="form-control" id="examonline" required="">
+                      <option value="0" selected="selected">Скласти іспит в центрі тестування</option>
+                      <option value="1">Скласти іспит онлайн</option>
+                    </select>
+                    <!-- <div class="invalid-feedback">
+                      Введіть коментар.
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+          
+              <fieldset class="form-group">
+                    <p>Дата та час іспиту визначаються індивідуально за номером телефону (050) 435 32 91</p>
+                <legend>Згода</legend>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="" required="">
+                    Ознайомлений з <span class="oferta-btn" data-toggle="modal" data-target=".oferta-modal-lg">договором публічної
+                      оферти</span>
+                  </label>
+                </div>
+                <div class="row">
+                  <button type="submit" class="btn btn-info" style="width: 130px; height:50px; margin-top:5%;">Зареєструватись</button>
+                </div>
+              </fieldset>
+            </fieldset>
+            <p class="mt-3"></p>
+          </form>

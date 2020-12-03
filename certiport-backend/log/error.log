@@ -1,0 +1,2 @@
+{"level":50,"time":1591953428241,"pid":12876,"hostname":"DT007","name":"Register","msg":"Error registerUser: TypeError: promisePool.query is not a function or its return value is not iterable"}
+{"level":50,"time":1591953548196,"pid":12876,"hostname":"DT007","name":"Register","msg":"Error registerUser: TypeError: promisePool.query is not a function or its return value is not iterable"}

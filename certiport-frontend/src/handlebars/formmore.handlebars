@@ -1,0 +1,160 @@
+<form id="form-more" class="mt-3 needs-validation">
+  <fieldset>
+    <input name="yearsoldmore" type="hidden" class="form-control" id="yearsoldmore" placeholder="Name" value="1">
+    <input name="contract" type="hidden" class="form-control" id="contract" placeholder="contract" value="0">
+
+    {{!-- <div class="row">
+      <div class="col-md-3 mb-3">
+        <div class="form-group">
+          <label for="citymore">Місто *</label>
+          <select name="citymore" class="form-control" id="citymore">
+            <option value="Київ">Оберіть місто *</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-9 mb-3">
+        <div class="form-group">
+          <label for="centermore">Центр тестування *</label>
+          <select name="centermore" class="form-control" id="centermore">
+            <option value="00000">Оберіть центр тестування *</option>
+          </select>
+        </div>
+      </div>
+    </div> --}}
+
+    {{!-- <div class="form-group">
+      <label for="centermore">Центр тестування</label>
+      <select name="centermore" class="form-control" id="centermore">
+        <option value="00000">Оберіть центр тестування</option>
+      </select>
+    </div> --}}
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <label for="name">І'мя (латинськими літерами) *</label>
+        <input name="name" type="text" class="form-control" id="name" placeholder="Name" value="" required="">
+        <div class="invalid-feedback">
+          Введіть імя.
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="lname">Прізвище (латинськими літерами) *</label>
+        <input name="lname" type="text" class="form-control" id="lname" placeholder="Last Name" value="" required="">
+        <div class="invalid-feedback">
+          Введіть Прізвище.
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="birth">Дата народження *</label>
+        <input name="birth" type="text" class="form-control" id="birth" placeholder="15.10.2020" value="" required="">
+        <div class="invalid-feedback">
+          Введіть дату народження.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <label for="email">E-mail *</label>
+        <input name="email" type="emailmore" class="form-control" id="email" aria-describedby="emailHelp"
+          placeholder="Ваш email">
+        {{!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+          else.</small> --}}
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="form-group">
+          <label for="phone">Телефон *</label>
+          <input name="phone" type="text" class="form-control" id="phone" placeholder="+38096 345 1234" value=""
+            required="">
+          <div class="invalid-feedback">
+            Введіть номер телефону.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="form-group">
+          <label for="city">Місто *</label>
+          <input name="city" type="text" class="form-control" id="city" placeholder="" value=""
+            required="">
+          <div class="invalid-feedback">
+            Введіть місто.
+          </div>
+        </div>
+      </div>
+      {{!-- <div class="col-md-4 mb-3">
+        <div class="form-group">
+          <label for="citymore">Місто *</label>
+          <select name="citymore" class="form-control" id="citymore">
+            <option value="Київ">Оберіть місто *</option>
+          </select>
+        </div>
+      </div>
+    </div> --}}
+
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="form-group">
+          <label for="exam">Іспит *</label>
+          <select name="exam" class="form-control" id="exam" required="">
+            <option value="0" selected="selected">Оберіть іспит *</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="form-group">
+          <label for="cost">Вартість обраного іспиту (грн) *</label>
+          <input name="cost" type="text" class="form-control" id="cost" placeholder="Оберіть рівень іспиту" value="0"
+            readonly>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 mb-3">
+      <div class="form-group">
+        <label for="promo">Вартість обраного іспиту по промокоду (грн) *</label>
+        <input name="promo" type="promo" class="form-control" id="promo" placeholder="Оберіть рівень іспиту" value="0"
+          readonly>
+      </div>
+    </div>
+    <div class="col-md-6 mb-4">
+        <div class="form-group">
+          <label for="promo-code">Промокод</label>
+          <textarea name="promo-code" rows="3" class="form-control" id="promo-code" placeholder="Промокод"
+            value=""></textarea>
+          <div class="invalid-feedback">
+            Введіть промокод.
+          </div>
+        </div>
+            <div class="btn btn-info" id="promo-btn">перевірити промокод</div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="form-group">
+          <label for="comment">Коментар</label>
+          <textarea name="comment" rows="1" class="form-control" id="comment" placeholder="Коментар"
+            value=""></textarea>
+          <div class="invalid-feedback">
+            Введіть коментар.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <fieldset class="form-group">
+          <p>Дата та час іспиту визначаються індивідуально за номером телефону (050) 444 24 90</p>
+      <legend>Згода</legend>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" value="" required="">
+          Ознайомлений з <span class="oferta-btn" data-toggle="modal" data-target=".oferta-modal-lg">договором публічної
+            оферти</span>
+        </label>
+      </div>
+      <div class="row">
+        <button type="submit" class="btn btn-info" style="width: 130px; height:50px; margin-top:5%;">Зареєструватись</button>
+      </div>
+    </fieldset>
+  </fieldset>
+  <p class="mt-3"></p>
+</form>
