@@ -58,7 +58,7 @@ router.post('/', (req, res) => {
     // email.sendReceiptToEmail(registration.id, registration.email, registration.name, exam.name);
     console.log(registration.examonline)
     if (registration.examonline = 0) {
-      if (registration.examForPdf == 2) {
+      if (registration.examForPdf == 4) {
         pdf.createReceipt1(registration.id, registration.name, registration.lname, registration.total, exam.name,registration.cert1, date);
         pdf.createContract(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
         email.sendReceipt2ToEmail(registration.id, registration.email, registration.name, exam.name,registration.cert1 );
@@ -68,7 +68,7 @@ router.post('/', (req, res) => {
         email.sendReceiptToEmail(registration.id, registration.email, registration.name, exam.name,registration.cert1 );
       }
     } else if(registration.examonline = 1) {
-      if (registration.examForPdf == 2) {
+      if (registration.examForPdf == 4) {
         pdf.createReceipt1(registration.id, registration.name, registration.lname, registration.total, exam.name,registration.cert1, date);
         pdf.createContract1(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
         email.sendReceipt2ToEmail(registration.id, registration.email, registration.name, exam.name,registration.cert1);

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4d45e5-8b47-45a3-85ae-b73e1e1cd2a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/certiport-backend/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-backend/emailing/Email.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/emailing/Email.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-backend/pdf/CreateReceipt.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/pdf/CreateReceipt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/certiport-backend/routes/api/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/routes/api/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-backend/sql/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/sql/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-frontend/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-frontend/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-frontend/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-frontend/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/dist/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607499392927</updated>
       <workItem from="1607499397111" duration="2299000" />
-      <workItem from="1607501788604" duration="10624000" />
+      <workItem from="1607501788604" duration="11432000" />
     </task>
     <servers />
   </component>
