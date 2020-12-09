@@ -272,28 +272,40 @@ $(document).ready(() => {
     });
   });
   $('#promo-btn').click(() => {
+    const promoText = {
+      certiport: {
+        certiport_ua: 'certiport-ua',
+        pearsonpartners: 'pearsonpartners',
+        mos2411: 'MOS2411',
+      },
+      discount: {
+        certiport: 10,
+        pearsonpartners: 50,
+        mos2411: 100,
+      },
+    };
     const promoCode = $('#promo-code').val();
     const examPromo = $('#exam').val();
-    const promo = {
-      promocode: 'certiport-ua',
-      discount_percentage: 10,
-    };
+    // const promo = {
+    //   promocode: 'certiport-ua',
+    //   discount_percentage: 10,
+    // };
     // console.log('UI', promoCode);
     // console.log('Back', promo.promocode);
-    if (promoCode === promo.promocode) {
+    if (promoCode === promoText.certiport.certiport_ua) {
       const cost = $('#cost').val();
       let promoCost = 0;
-      promoCost = (cost !== 0) ? cost - ((cost / 100) * promo.discount_percentage) : 0;
+      promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.certiport) : 0;
       $('#promo').val(promoCost);
-    } else if (promoCode === 'pearsonpartners' && examPromo === '4') {
+    } else if (promoCode === promoText.certiport.pearsonpartners && examPromo === '4') {
       const cost = $('#cost').val();
       let promoCost = 0;
-      promoCost = (cost !== 0) ? cost - ((cost / 100) * 50) : 0;
+      promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.pearsonpartners) : 0;
       $('#promo').val(promoCost);
-    } else if (promoCode === 'MOS2411' && examPromo === '2') {
+    } else if (promoCode === promoText.certiport.mos2411 && examPromo === '2') {
       const cost = $('#cost').val();
       let promoCost = 0;
-      promoCost = (cost !== 0) ? cost - ((cost / 100) * 100) : 0;
+      promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.mos2411) : 0;
       $('#promo').val(promoCost);
       $('#cost').val(0);
       // console.log('done');

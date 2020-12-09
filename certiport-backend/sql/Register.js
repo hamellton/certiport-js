@@ -55,18 +55,18 @@ const registerUser = async (val) => {
           val.contract,
           val.comment || '',
           val.examonline,
-          val.cert1 = (val.cert1 != 0) ? val.cert1 : 
-          (val.cert2 != 0) ? val.cert2 : 
-          (val.cert3 != 0) ? val.cert3 : 
-          (val.cert4 != 0) ? val.cert4 : 
-          (val.cert5 != 0) ? val.cert5 : 
-          (val.cert6 != 0) ? val.cert6 : 
-          (val.cert7 != 0) ? val.cert7 : 
-          (val.cert8 != 0) ? val.cert8 : 
-          (val.cert9 != 0) ? val.cert9 : 
-          (val.cert10 != 0) ? val.cert10 : 
-          (val.cert11 != 0) ? val.cert11 : 
-          '',
+          val.cert1 = (val.cert1 != 0) ? val.cert1 :
+              (val.cert2 != 0) ? val.cert2 :
+                  (val.cert3 != 0) ? val.cert3 :
+                      (val.cert4 != 0) ? val.cert4 :
+                          (val.cert5 != 0) ? val.cert5 :
+                              (val.cert6 != 0) ? val.cert6 :
+                                  (val.cert7 != 0) ? val.cert7 :
+                                      (val.cert8 != 0) ? val.cert8 :
+                                          (val.cert9 != 0) ? val.cert9 :
+                                              (val.cert10 != 0) ? val.cert10 :
+                                                  (val.cert11 != 0) ? val.cert11 :
+                                                      '',
           // val.examonline = val.examonline = 0 ? 'Скласти іспит в центрі тестування' : 'Скласти іспит онлайн',
           val.city,
         ], (err, results) => {
@@ -77,6 +77,7 @@ const registerUser = async (val) => {
         registrationInfo.name = val.name;
         registrationInfo.lname = val.lname;
         registrationInfo.exam = val.cert1;
+        registrationInfo.examForPdf = val.exam
         registrationInfo.birth = val.birth;
         registrationInfo.phone = val.phone;
         registrationInfo.email = val.email;

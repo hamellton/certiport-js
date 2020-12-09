@@ -93,6 +93,36 @@ const sendReceipt1ToEmail = (id, useremail, name, exam, cert1) => {
     }).then(() => console.log(`Receipt and Contract have been send to candidate ${name}, ${useremail}`));
 };
 
+const sendReceipt2ToEmail = (id, useremail, name, exam, cert1) => {
+    email.send({
+        template: 'receipt1',
+        message: {
+            // from: 'Certiport <certiport@dinternal.com.ua>',
+            // from: 'Certiport <ilacregistration@ukr.net>',
+            from: 'Certiport <certiportukraine@gmail.com>',
+
+            to: useremail,
+            // cc: 'ilac.kyiv@gmail.com',
+            attachments: [{
+                    filename: 'Рахунок.pdf',
+                    path: `pdfReceipts/${id}.pdf`,
+                },
+                {
+                    filename: 'Договір.pdf',
+                    path: `pdfContracts1/${id}.pdf`,
+                }
+            ],
+        },
+        locals: {
+            fname: name,
+            exam,
+            useremail,
+            id,
+            cert1,
+        },
+    }).then(() => console.log(`Receipt and Contract have been send to candidate ${name}, ${useremail}`));
+};
+
 
 const sendNotificationToCenterEmail = (useremail, student, level) => {
     email.send({
@@ -141,6 +171,7 @@ module.exports = {
     sendEmailPaid,
     sendReceiptToEmail,
     sendReceipt1ToEmail,
+    sendReceipt2ToEmail,
     sendNotificationToCenterEmail,
     sendNotificationToIlac,
 }

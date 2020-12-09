@@ -151,6 +151,86 @@ const createReceipt = (id, name, lName, total, totalpromo, examName, date) => {
   console.log(`pdfReceipt has been created for: ${name} ${lName}, id ${id}`);
 };
 
+const createReceipt1 = (id, name, lName, total, totalpromo, examName, date) => {
+  const docDefinition = {
+    background: [
+      {
+        image: path.resolve('pdf-src/img/bg.png'),
+        width: 570,
+      },
+    ],
+    content: [
+      // every object is new line in pdg file
+      // {
+      //   image: path.resolve('pdf-src/img/logo.png'),
+      //   width: 100,
+      //   margin: [0, 0, 0, 20],
+      // },
+      {
+        text: `№ ${id}            від  ${date}`,
+        style: 'header',
+        bold: true,
+        margin: [110, 135, 0, 20],
+      },
+      {
+        text: `${name} ${lName}`,
+        style: 'header',
+        bold: false,
+        margin: [30, 35, 0, 13],
+      },
+      {
+        text: `${total}          ${total}`,
+        style: 'textStyle',
+        bold: false,
+        margin: [415, 42, 0, 10],
+      },
+      {
+        text: `${total} грн.`,
+        style: 'header',
+        bold: false,
+        margin: [430, 0, 0, 10],
+      },
+      {
+        text: `${total}`,
+        style: 'textStyle',
+        bold: false,
+        margin: [87, 0, 0, 10],
+      },
+      {
+        text: `"Оплата за інформаційно-організаційні послуги з-но рахунку ${id} від ${date}. Без ПДВ"`,
+        style: 'textFooter',
+        bold: false,
+        margin: [0, 120, 0, 10],
+      },
+
+    ],
+    defaultStyle: {
+      fontSize: 14,
+      bold: false,
+    },
+    styles: {
+      textStyle: {
+        fontSize: 8,
+        bold: false,
+      },
+      textFooter: {
+        fontSize: 12,
+        bold: false,
+      },
+    },
+  };
+
+  const options = {
+    // ...
+  };
+
+  const pdfDoc = printer.createPdfKitDocument(docDefinition, options);
+  pdfDoc.pipe(fs.createWriteStream(`pdfReceipts/${id}.pdf`));
+  pdfDoc.end();
+  log.info(`pdfReceipt1 has been created for: ${name} ${lName}, id ${id}`);
+  console.log(`pdfReceipt1 has been created for: ${name} ${lName}, id ${id}`);
+};
+
 const createContract = (id, name, lName, examName, cert1) => {
   const docDefinition = {
     // background: [
@@ -338,6 +418,7 @@ const createContract1 = (id, name, lName, examName, cert1) => {
 
 module.exports = {
   createReceipt,
+  createReceipt1,
   createContract,
   createContract1,
 };

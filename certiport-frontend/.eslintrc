@@ -1,7 +1,10 @@
 {
     "parser": "babel-eslint",
     "extends": ["airbnb"],
-    "rules": {"no-console": "off"},
+    "rules": {
+      "no-console": "off",
+      "linebreak-style": 0
+    },
     "env": {
       "browser": true,
       "node": true
