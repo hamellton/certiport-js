@@ -95,7 +95,7 @@ const sendReceipt1ToEmail = (id, useremail, name, exam, cert1) => {
 
 const sendReceipt2ToEmail = (id, useremail, name, exam, cert1) => {
     email.send({
-        template: 'receipt1',
+        template: 'receiptForMosPromo',
         message: {
             // from: 'Certiport <certiport@dinternal.com.ua>',
             // from: 'Certiport <ilacregistration@ukr.net>',
