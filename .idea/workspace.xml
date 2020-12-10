@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccd2d078-f5e4-4f06-b1cf-202ea836aeba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/certiport-backend/emails/receiptForMosPromo/html.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certiport-backend/emails/receiptForMosPromo/subject.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certiport-backend/emails/receiptForMosPromo/text.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-backend/emailing/Email.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/emailing/Email.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/pdf/CreateReceipt.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/pdf/CreateReceipt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/routes/api/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/routes/api/Register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607584351103</updated>
-      <workItem from="1607584353656" duration="8698000" />
+      <workItem from="1607584353656" duration="17151000" />
     </task>
     <servers />
   </component>
