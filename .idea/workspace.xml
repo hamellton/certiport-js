@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e4d45e5-8b47-45a3-85ae-b73e1e1cd2a1" name="Default Changelist" comment="">
+    <list default="true" id="ccd2d078-f5e4-4f06-b1cf-202ea836aeba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/emailing/Email.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/emailing/Email.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/pdf/CreateReceipt.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/pdf/CreateReceipt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/certiport-backend/routes/api/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/routes/api/Register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
-  <component name="ProjectId" id="1lPWpVz0AFaYJH9aNBChRUiDDpt" />
+  <component name="ProjectId" id="1lSJ1uwWiA5u8XWkTwzbsBgw9yB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,24 +25,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e4d45e5-8b47-45a3-85ae-b73e1e1cd2a1" name="Default Changelist" comment="" />
-      <created>1607499392927</created>
+      <changelist id="ccd2d078-f5e4-4f06-b1cf-202ea836aeba" name="Default Changelist" comment="" />
+      <created>1607584351103</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607499392927</updated>
-      <workItem from="1607499397111" duration="2299000" />
-      <workItem from="1607501788604" duration="11432000" />
+      <updated>1607584351103</updated>
+      <workItem from="1607584353656" duration="5521000" />
     </task>
     <servers />
   </component>

@@ -90,7 +90,7 @@ const sendReceipt1ToEmail = (id, useremail, name, exam, cert1) => {
             id,
             cert1,
         },
-    }).then(() => console.log(`Receipt and Contract have been send to candidate ${name}, ${useremail}`));
+    }).then(() => console.log(`Receipt and Contract1 have been send to candidate ${name}, ${useremail}`));
 };
 
 const sendReceipt2ToEmail = (id, useremail, name, exam, cert1) => {
