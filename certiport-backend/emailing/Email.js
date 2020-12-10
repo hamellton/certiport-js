@@ -103,15 +103,15 @@ const sendReceipt2ToEmail = (id, useremail, name, exam, cert1) => {
 
             to: useremail,
             // cc: 'ilac.kyiv@gmail.com',
-            attachments: [{
-                    filename: 'Рахунок.pdf',
-                    path: `pdfReceipts/${id}.pdf`,
-                },
-                {
-                    filename: 'Договір.pdf',
-                    path: `pdfContracts1/${id}.pdf`,
-                }
-            ],
+            // attachments: [{
+            //         filename: 'Рахунок.pdf',
+            //         path: `pdfReceipts/${id}.pdf`,
+            //     },
+            //     {
+            //         filename: 'Договір.pdf',
+            //         path: `pdfContracts1/${id}.pdf`,
+            //     }
+            // ],
         },
         locals: {
             fname: name,

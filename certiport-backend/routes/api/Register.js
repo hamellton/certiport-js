@@ -66,6 +66,10 @@ router.post('/', (req, res) => {
         pdf.createReceipt2(registration.id, registration.name, registration.lname, registration.total, exam.name,registration.cert1, date);
         pdf.createContract(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
         email.sendReceiptToEmail(registration.id, registration.email, registration.name, exam.name,registration.cert1 );
+      } else if (registration.examForPdf == 2 && registration.total == 0) {
+        pdf.createReceipt2(registration.id, registration.name, registration.lname, registration.total, exam.name,registration.cert1, date);
+        pdf.createContract(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
+        email.sendReceipt2ToEmail(registration.id, registration.email, registration.name, exam.name,registration.cert1 );
       } else {
         pdf.createReceipt(registration.id, registration.name, registration.lname, registration.total, exam.name,registration.cert1, date);
         pdf.createContract(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
@@ -80,6 +84,10 @@ router.post('/', (req, res) => {
         pdf.createReceipt2(registration.id, registration.name, registration.lname, registration.total, exam.name,registration.cert1, date);
         pdf.createContract1(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
         email.sendReceipt1ToEmail(registration.id, registration.email, registration.name, exam.name,registration.cert1);
+      } else if (registration.examForPdf == 2 && registration.total == 0) {
+        pdf.createReceipt2(registration.id, registration.name, registration.lname, registration.total, exam.name,registration.cert1, date);
+        pdf.createContract1(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
+        email.sendReceipt2ToEmail(registration.id, registration.email, registration.name, exam.name,registration.cert1);
       } else {
         pdf.createReceipt(registration.id, registration.name, registration.lname, registration.total, exam.name,registration.cert1, date);
         pdf.createContract1(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
