@@ -277,11 +277,13 @@ $(document).ready(() => {
         certiport_ua: 'certiport-ua',
         pearsonpartners: 'pearsonpartners',
         mos2411: 'MOS2411',
+        TESTCENTRE2021: 'TESTCENTRE2021',
       },
       discount: {
         certiport: 10,
         pearsonpartners: 50,
         mos2411: 100,
+        testcentre2021: 50,
       },
     };
     const promoCode = $('#promo-code').val();
@@ -301,6 +303,11 @@ $(document).ready(() => {
       const cost = $('#cost').val();
       let promoCost = 0;
       promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.pearsonpartners) : 0;
+      $('#promo').val(promoCost);
+    } else if (promoCode === promoText.certiport.TESTCENTRE2021 && examPromo === '4') {
+      const cost = $('#cost').val();
+      let promoCost = 0;
+      promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.testcentre2021) : 0;
       $('#promo').val(promoCost);
     } else if (promoCode === promoText.certiport.mos2411 && examPromo === '2') {
       const cost = $('#cost').val();
