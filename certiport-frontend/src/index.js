@@ -163,6 +163,8 @@ $(document).ready(() => {
         document.querySelector('#cert8').className = 'hide';
         document.querySelector('#cert9').className = 'hide';
         document.querySelector('#cert10').className = 'hide';
+        document.querySelector('#cert11').className = 'hide';
+        document.querySelector('#cert12').className = 'hide';
         document.querySelector('#cert1').className = 'show';
       } else if (selectCert === '3') {
         document.querySelector('#cert1').className = 'hide';
@@ -174,6 +176,8 @@ $(document).ready(() => {
         document.querySelector('#cert8').className = 'hide';
         document.querySelector('#cert9').className = 'hide';
         document.querySelector('#cert10').className = 'hide';
+        document.querySelector('#cert11').className = 'hide';
+        document.querySelector('#cert12').className = 'hide';
         document.querySelector('#cert2').className = 'show';
       } else if (selectCert === '4') {
         document.querySelector('#cert1').className = 'hide';
@@ -185,6 +189,8 @@ $(document).ready(() => {
         document.querySelector('#cert8').className = 'hide';
         document.querySelector('#cert9').className = 'hide';
         document.querySelector('#cert10').className = 'hide';
+        document.querySelector('#cert11').className = 'hide';
+        document.querySelector('#cert12').className = 'hide';
         document.querySelector('#cert3').className = 'show';
       } else if (selectCert === '5') {
         document.querySelector('#cert1').className = 'hide';
@@ -196,6 +202,8 @@ $(document).ready(() => {
         document.querySelector('#cert8').className = 'hide';
         document.querySelector('#cert9').className = 'hide';
         document.querySelector('#cert10').className = 'hide';
+        document.querySelector('#cert11').className = 'hide';
+        document.querySelector('#cert12').className = 'hide';
         document.querySelector('#cert4').className = 'show';
       } else if (selectCert === '7') {
         document.querySelector('#cert1').className = 'hide';
@@ -207,6 +215,8 @@ $(document).ready(() => {
         document.querySelector('#cert8').className = 'hide';
         document.querySelector('#cert9').className = 'hide';
         document.querySelector('#cert10').className = 'hide';
+        document.querySelector('#cert11').className = 'hide';
+        document.querySelector('#cert12').className = 'hide';
         document.querySelector('#cert5').className = 'show';
       } else if (selectCert === '8') {
         document.querySelector('#cert1').className = 'hide';
@@ -218,6 +228,8 @@ $(document).ready(() => {
         document.querySelector('#cert8').className = 'hide';
         document.querySelector('#cert9').className = 'hide';
         document.querySelector('#cert10').className = 'hide';
+        document.querySelector('#cert11').className = 'hide';
+        document.querySelector('#cert12').className = 'hide';
         document.querySelector('#cert6').className = 'show';
       } else if (selectCert === '12') {
         document.querySelector('#cert1').className = 'hide';
@@ -229,6 +241,8 @@ $(document).ready(() => {
         document.querySelector('#cert8').className = 'hide';
         document.querySelector('#cert9').className = 'hide';
         document.querySelector('#cert10').className = 'hide';
+        document.querySelector('#cert11').className = 'hide';
+        document.querySelector('#cert12').className = 'hide';
         document.querySelector('#cert7').className = 'show';
       } else if (selectCert === '13') {
         document.querySelector('#cert1').className = 'hide';
@@ -241,6 +255,8 @@ $(document).ready(() => {
         document.querySelector('#cert7').className = 'hide';
         document.querySelector('#cert9').className = 'hide';
         document.querySelector('#cert10').className = 'hide';
+        document.querySelector('#cert11').className = 'hide';
+        document.querySelector('#cert12').className = 'hide';
         document.querySelector('#cert8').className = 'show';
       } else if (selectCert === '14') {
         document.querySelector('#cert1').className = 'hide';
@@ -254,6 +270,8 @@ $(document).ready(() => {
         document.querySelector('#cert7').className = 'hide';
         document.querySelector('#cert8').className = 'hide';
         document.querySelector('#cert10').className = 'hide';
+        document.querySelector('#cert11').className = 'hide';
+        document.querySelector('#cert12').className = 'hide';
         document.querySelector('#cert9').className = 'show';
       } else if (selectCert === '15') {
         document.querySelector('#cert1').className = 'hide';
@@ -265,7 +283,35 @@ $(document).ready(() => {
         document.querySelector('#cert7').className = 'hide';
         document.querySelector('#cert8').className = 'hide';
         document.querySelector('#cert9').className = 'hide';
+        document.querySelector('#cert11').className = 'hide';
+        document.querySelector('#cert12').className = 'hide';
         document.querySelector('#cert10').className = 'show';
+      } else if (selectCert === '16') {
+        document.querySelector('#cert1').className = 'hide';
+        document.querySelector('#cert2').className = 'hide';
+        document.querySelector('#cert3').className = 'hide';
+        document.querySelector('#cert4').className = 'hide';
+        document.querySelector('#cert5').className = 'hide';
+        document.querySelector('#cert6').className = 'hide';
+        document.querySelector('#cert7').className = 'hide';
+        document.querySelector('#cert8').className = 'hide';
+        document.querySelector('#cert9').className = 'hide';
+        document.querySelector('#cert10').className = 'hide';
+        document.querySelector('#cert12').className = 'hide';
+        document.querySelector('#cert11').className = 'show';
+      } else if (selectCert === '17') {
+        document.querySelector('#cert1').className = 'hide';
+        document.querySelector('#cert2').className = 'hide';
+        document.querySelector('#cert3').className = 'hide';
+        document.querySelector('#cert4').className = 'hide';
+        document.querySelector('#cert5').className = 'hide';
+        document.querySelector('#cert6').className = 'hide';
+        document.querySelector('#cert7').className = 'hide';
+        document.querySelector('#cert8').className = 'hide';
+        document.querySelector('#cert9').className = 'hide';
+        document.querySelector('#cert10').className = 'hide';
+        document.querySelector('#cert11').className = 'hide';
+        document.querySelector('#cert12').className = 'show';
       }
     }).fail((err) => {
       console.log(`fail get price: ${err}`);
