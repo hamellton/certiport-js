@@ -113,6 +113,11 @@ module.exports = {
       template: './src/handlebars/contacts.handlebars',
       inject: 'body',
       filename: 'contacts.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/handlebars/special.handlebars',
+      inject: 'body',
+      filename: 'special.html',
     })
   ],
 };

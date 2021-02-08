@@ -57,7 +57,17 @@ router.post('/', (req, res) => {
     // pdf.createContract(registration.id, registration.name, registration.lname, exam.name);
     // email.sendReceiptToEmail(registration.id, registration.email, registration.name, exam.name);
     console.log(registration.examonline)
-    if (registration.examonline = 0) {
+      if (registration.examonline == 2) {
+      console.log('Start create for examonline 2')
+        pdf.createReceipt(registration.id, registration.name, registration.lname, registration.total, exam.name,registration.cert1, date);
+        pdf.createContract(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
+      email.sendReceiptToEmailSecond(registration.id, registration.email, registration.name, exam.name,registration.cert1 );
+      } else if (registration.examonline == 3) {
+        console.log('Start create for examonline 3')
+        pdf.createReceipt(registration.id, registration.name, registration.lname, registration.total, exam.name,registration.cert1, date);
+        pdf.createContract1(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
+        email.sendReceipt1ToEmailSecond(registration.id, registration.email, registration.name, exam.name,registration.cert1);
+      } else if (registration.examonline = 0) {
       if (registration.examForPdf == 4 && registration.total == 1100) {
         pdf.createReceipt1(registration.id, registration.name, registration.lname, registration.total, exam.name,registration.cert1, date);
         pdf.createContract(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
@@ -101,7 +111,6 @@ router.post('/', (req, res) => {
         pdf.createContract1(registration.id, registration.name, registration.lname, exam.name, registration.cert1);
         email.sendReceipt1ToEmail(registration.id, registration.email, registration.name, exam.name,registration.cert1);
       }
-
     }
     email.sendNotificationToIlac('certiport@dinternal.com.ua', registration, exam.name, registration.id);
     res.send(registration);

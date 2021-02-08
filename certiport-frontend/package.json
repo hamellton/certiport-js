@@ -7,7 +7,7 @@
     "devfront": "eslint --fix src/index.js && webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Perepichai",
+  "author": "Postoian",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -47,9 +47,6 @@
     "type": "git",
     "url": "git+https://github.com/perepichai/certiport-frontend.git"
   },
-  "keywords": [
-    "Perepichai"
-  ],
   "bugs": {
     "url": "https://github.com/perepichai/certiport-frontend/issues"
   },
