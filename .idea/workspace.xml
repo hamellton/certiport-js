@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ccd2d078-f5e4-4f06-b1cf-202ea836aeba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-backend/pdf/CreateReceipt.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/pdf/CreateReceipt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-backend/routes/api/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/routes/api/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/routes/api/GetValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/routes/api/GetValue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/sql/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/sql/Register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1lSJ1uwWiA5u8XWkTwzbsBgw9yB" />
   <component name="ProjectViewState">
@@ -45,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607584351103</updated>
       <workItem from="1607584353656" duration="17151000" />
+      <workItem from="1612770869679" duration="3987000" />
     </task>
     <servers />
   </component>

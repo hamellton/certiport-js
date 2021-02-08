@@ -81,21 +81,16 @@ router.post('/contract/id', (req, res) => {
 });
 
 router.post('/promo/id', (req, res) => {
-  debugger
   if (!req.body.id) {
-    debugger
     console.log('Req body is null')
     res.send({
       percentage: 0,
     });
   }
-  debugger
   sql.getPromo(req.body.id).then((resp) => {
-    debugger
     res.send(resp);
   })
     .catch(err => {
-      debugger
       console.log('Unable to run sql promo' + concat(err));
     });
 });

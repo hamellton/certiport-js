@@ -66,6 +66,7 @@ const registerUser = async (val) => {
                                           (val.cert9 != 0) ? val.cert9 :
                                               (val.cert10 != 0) ? val.cert10 :
                                                   (val.cert11 != 0) ? val.cert11 :
+                                                      (val.cert12 != 0) ? val.cert12 :
                                                       '',
           // val.examonline = val.examonline = 0 ? 'Скласти іспит в центрі тестування' : 'Скласти іспит онлайн',
           val.city,
