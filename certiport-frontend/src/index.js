@@ -369,6 +369,11 @@ $(document).ready(() => {
       let promoCost = 0;
       promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.certiport50) : 0;
       $('#promo').val(promoCost);
+    } else if (promoCode === promoText.certiport.certiport50 && examPromo === '2') {
+      const cost = $('#cost').val();
+      let promoCost = 0;
+      promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.certiport50) : 0;
+      $('#promo').val(promoCost);
     } else if (promoCode === promoText.certiport.certiport50 && examPromo === '7') {
       const cost = $('#cost').val();
       let promoCost = 0;

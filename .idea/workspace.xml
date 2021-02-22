@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccd2d078-f5e4-4f06-b1cf-202ea836aeba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/certiport-backend/emails/receipt1Second/html!.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certiport-backend/emails/receipt1Second/html.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certiport-backend/emails/receipt1Second/subject.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certiport-backend/emails/receipt1Second/text.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certiport-backend/emails/receiptSecond/html!.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certiport-backend/emails/receiptSecond/html.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certiport-backend/emails/receiptSecond/subject.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certiport-backend/emails/receiptSecond/text.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certiport-frontend/src/handlebars/formsecond.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certiport-frontend/src/handlebars/special.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-backend/emailing/Email.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/emailing/Email.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-backend/routes/api/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/routes/api/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-frontend/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-frontend/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +53,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607584351103</updated>
       <workItem from="1607584353656" duration="17151000" />
-      <workItem from="1612770869679" duration="16359000" />
+      <workItem from="1612770869679" duration="16683000" />
+      <workItem from="1613985043333" duration="1529000" />
     </task>
     <servers />
   </component>
