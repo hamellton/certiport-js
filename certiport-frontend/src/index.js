@@ -324,12 +324,14 @@ $(document).ready(() => {
         pearsonpartners: 'pearsonpartners',
         mos2411: 'MOS2411',
         TESTCENTRE2021: 'TESTCENTRE2021',
+        certiport50: 'certiport50',
       },
       discount: {
         certiport: 10,
         pearsonpartners: 50,
         mos2411: 100,
         testcentre2021: 50,
+        certiport50: 50,
       },
     };
     const promoCode = $('#promo-code').val();
@@ -362,6 +364,26 @@ $(document).ready(() => {
       $('#promo').val(promoCost);
       $('#cost').val(0);
       // console.log('done');
+    } else if (promoCode === promoText.certiport.certiport50 && examPromo === '3') {
+      const cost = $('#cost').val();
+      let promoCost = 0;
+      promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.certiport50) : 0;
+      $('#promo').val(promoCost);
+    } else if (promoCode === promoText.certiport.certiport50 && examPromo === '7') {
+      const cost = $('#cost').val();
+      let promoCost = 0;
+      promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.certiport50) : 0;
+      $('#promo').val(promoCost);
+    } else if (promoCode === promoText.certiport.certiport50 && examPromo === '8') {
+      const cost = $('#cost').val();
+      let promoCost = 0;
+      promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.certiport50) : 0;
+      $('#promo').val(promoCost);
+    } else if (promoCode === promoText.certiport.certiport50 && examPromo === '17') {
+      const cost = $('#cost').val();
+      let promoCost = 0;
+      promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.certiport50) : 0;
+      $('#promo').val(promoCost);
     } else {
       $('#promo').val(0);
     }
