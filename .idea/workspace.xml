@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ccd2d078-f5e4-4f06-b1cf-202ea836aeba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certiport-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/emails/receipt/html.pug" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/emails/receipt/html.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/emails/receipt1/html.pug" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/emails/receipt1/html.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/emails/receipt1Second/html.pug" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/emails/receipt1Second/html.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/emails/receiptForMosPromo/html.pug" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/emails/receiptForMosPromo/html.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-backend/emails/receiptSecond/html.pug" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-backend/emails/receiptSecond/html.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,8 @@
       <updated>1607584351103</updated>
       <workItem from="1607584353656" duration="17151000" />
       <workItem from="1612770869679" duration="16683000" />
-      <workItem from="1613985043333" duration="1529000" />
+      <workItem from="1613985043333" duration="3497000" />
+      <workItem from="1620826450098" duration="690000" />
     </task>
     <servers />
   </component>
