@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccd2d078-f5e4-4f06-b1cf-202ea836aeba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/certiport-frontend/src/handlebars/formmore.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/src/handlebars/formmore.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-frontend/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certiport-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/certiport-frontend/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
       <workItem from="1612770869679" duration="16683000" />
       <workItem from="1613985043333" duration="3497000" />
       <workItem from="1620826450098" duration="690000" />
-      <workItem from="1626082354019" duration="182000" />
+      <workItem from="1626082354019" duration="1091000" />
     </task>
     <servers />
   </component>

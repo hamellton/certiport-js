@@ -325,6 +325,8 @@ $(document).ready(() => {
         mos2411: 'MOS2411',
         TESTCENTRE2021: 'TESTCENTRE2021',
         certiport50: 'certiport50',
+        mcemarathon: 'mcemarathon',
+        mcefriend: 'mcefriend',
       },
       discount: {
         certiport: 10,
@@ -332,16 +334,12 @@ $(document).ready(() => {
         mos2411: 100,
         testcentre2021: 50,
         certiport50: 50,
+        mcemarathon: 10,
+        mcefriend: 25,
       },
     };
     const promoCode = $('#promo-code').val();
     const examPromo = $('#exam').val();
-    // const promo = {
-    //   promocode: 'certiport-ua',
-    //   discount_percentage: 10,
-    // };
-    // console.log('UI', promoCode);
-    // console.log('Back', promo.promocode);
     if (promoCode === promoText.certiport.certiport_ua) {
       const cost = $('#cost').val();
       let promoCost = 0;
@@ -363,7 +361,6 @@ $(document).ready(() => {
       promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.mos2411) : 0;
       $('#promo').val(promoCost);
       $('#cost').val(0);
-      // console.log('done');
     } else if (promoCode === promoText.certiport.certiport50 && examPromo === '3') {
       const cost = $('#cost').val();
       let promoCost = 0;
@@ -389,6 +386,17 @@ $(document).ready(() => {
       let promoCost = 0;
       promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.certiport50) : 0;
       $('#promo').val(promoCost);
+    } else if (promoCode === promoText.certiport.mcemarathon && examPromo === '17') {
+      const cost = $('#cost').val();
+      let promoCost = 0;
+      promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.mcemarathon) : 0;
+      $('#promo').val(promoCost);
+    } else if (promoCode === promoText.certiport.mcefriend && examPromo === '17') {
+      const cost = $('#cost').val();
+      let promoCost = 0;
+      promoCost = (cost !== 0) ? cost - ((cost / 100) * promoText.discount.mcefriend) : 0;
+      $('#promo').val(promoCost);
+      console.log();
     } else {
       $('#promo').val(0);
     }
